@@ -1,0 +1,88 @@
+export const LOGIN = "LOGIN";
+export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
+export const LOGIN_FAILURE = "LOGIN_FAILURE";
+
+export const REGISTER = "REGISTER";
+export const REGISTER_SUCCESS = "REGISTER_SUCCESS";
+export const REGISTER_FAILURE = "REGISTER_FAILURE";
+
+export const CURRENT_USER = "CURRENT_USER";
+export const CURRENT_USER_SUCCESS = "CURRENT_USER_SUCCES";
+export const CURRENT_USER_FAILURE = "CURRENT_USER_FAILURE";
+
+export const LOGOUT = "LOGOUT";
+
+export const TESTAPI = "TESTAPI";
+export const TESTAPI_SUCCESS = "TESTAPI_SUCCESS";
+export const TESTAPI_FAIL = "TESTAPI_FAIL";
+
+
+export const LOAD_SETTINGS = "LOAD_SETTINGS";
+export const OTP_REQUEST = "OTP_REQUEST";
+export const OTP_SUCEESS = "OTP_SUCEESS"
+
+export const LOAD_LOCATION = "LOAD_LOCATION";
+
+export const LOAD_SELLERS = "LOAD_SELLERS";
+
+export const SET_ACTIVE_SELLER = "SET_ACTIVE_SELLER";
+
+export const SELLER_LOADING = "SELLER_LOADING";
+
+export const ADD_TO_CART = "ADD_TO_CART";
+export const LOAD_CART = "LOAD_CART";
+export const REMOVE_FROM_CART = "REMOVE_FROM_CART";
+
+export const LOAD_CATEGORY = "LOAD_CATEGORY"
+export const LOAD_USER_DETAILS = "LOAD_USER_DETAILS"
+
+
+
+
+
+
+
+///seller 
+
+export const LOADING_SELLER_DATA = "LOADING_SELLER_DATA"
+export const LOAD_SELLER_DATA = "LOAD_SELLER_DATA"
+export const LOAD_SELLER_DATA_SUCCESS = "LOAD_SELLER_DATA_SUCCESS"
+
+//seller - dashboard - components
+export const SELLER_LOADING_ORDERS = "SELLER_LOADING_ORDERS";
+export const SELLER_LOAD_ORDERS = "SELLER_LOAD_ORDERS";
+
+
+export const SELLER_LOADING_PRODUCTS = "SELLER_LOADING_PRODUCTS";
+export const SELLER_LOAD_PRODUCTS = "SELLER_LOAD_PRODUCTS";
+
+
+//seller -error handler
+export const SET_ERROR = "SET_ERROR";
+export const CLEAR_ERROR = "CLEAR_ERROR";
+
+
+//seller-add-new-product-template
+export const LOAD_CATEGORIES = "LOAD_CATEGORIES";
+export const LOAD_CATEGORIES_SUCCESS = "LOAD_CATEGORIES_SUCCESS";
+export const LOAD_SUBCATEGORIES = "LOAD_SUBCATEGORIES";
+export const LOAD_SUB_CATEGORIES_SUCCESS = "LOAD_SUB_CATEGORIES_SUCCESS";
+export const LOAD_PRODUCTS = "LOAD_PRODUCTS";
+export const LOAD_PRODUCTS_SUCCESS = "LOAD_PRODUCTS_SUCCESS";
+
+
+
+export const LOAD_BOTTOM_INFO = "LOAD_BOTTOM_INFO";
+export const BOTTOM_INFO_OFF = "BOTTOM_INFO_OFF";
+
+
+export const LOAD_USER = "LOAD_USER";
+export const UNLOAD_USER = "UNLOAD_USER";
+
+export const CREATE_ORDER = "CREATE_ORDER"
+
+export const LOAD_COMMON_DATA = "LOAD_COMMON_DATA"
+export const UPDATE_USER_DATA = "UPDATE_USER_DATA"
+
+
+export const CHANGE_TAG ="CHANGE_TAG"
